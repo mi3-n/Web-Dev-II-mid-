@@ -2,9 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
+/* header */
 .head {
     background-image: url("/css/img/nav.jpg") ;
     background-repeat: no-repeat;
@@ -12,8 +10,6 @@ body {
     background-size: cover;
     margin: 0;
     height: 50vh;
-    
-    
 }
 .container p{
     font-size: 20px;
@@ -53,14 +49,7 @@ body {
     padding-top: 30px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
+/* header end */
 
 
 .container {
@@ -159,6 +148,7 @@ button {
 button:hover {
     background-color: #dd2476;
 }
+
 
 /* footer */
 .footer {
