@@ -1,9 +1,67 @@
 body {
     margin: 0;
     padding: 0;
-    color: white;
-    background-color: black;
 }
+
+
+
+.head {
+    background-image: url("/css/img/nav.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 50vh;
+    
+    
+}
+.container p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F0D9FF;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 58%; 
+    margin-top: 3%;
+}
+.nav-list li {
+      list-style: none; 
+}
+.nav-list .nav-link a {
+    margin: .2rem;
+    padding: 1rem 1rem;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(225, 225, 225, 0.2); 
+    }
+.nav-list .nav-link a:hover {
+    background: rgba(225, 225, 225, 0.6); 
+    }
+
+
+.ti {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 .container {
     display: flex;
@@ -11,10 +69,6 @@ body {
     padding: 25px;
 }
 
-.ti {
-    padding-top: 30px;
-    text-align: center;
-}
 
 .articles {
     display: flex;
@@ -70,15 +124,14 @@ input {
     height: 25px;
     border-radius: 15px;
     margin-top: 20px;
-    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    background-color: #CAB8FF;
     color: beige;
     border-width: 0px;
 }
 
 .addTo:hover {
     background-image: none;
-    background-color: red;
-    box-shadow: 0 0 20px red, 0 0 60px red, 0 0 60px red;
+    background-color:pink;
 }
 
 li {
@@ -87,8 +140,11 @@ li {
 }
 
 #message1, #message2, #message3, #message4 {
-    color: greenyellow;
+    color: #C996CC;
     text-align: center;
+}
+#message1, #message2, #message3, #message4  p {
+    font-size: 14px;
 }
 
 button {
@@ -103,3 +159,72 @@ button {
 button:hover {
     background-color: #dd2476;
 }
+
+/* footer */
+.footer {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #B5DEFF;
+  }
+  
+
+.footer .newsletter .newsletter {
+    font-size: 34px;
+    font-weight: bold;
+  }
+  
+.footer .newsletter .email {
+    width: 60%;
+    height: 3vw;
+  }
+  
+.footer .newsletter .submit {
+    width: 20%;
+    height: 3vw;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #709FB0;
+    border: 2px solid #709FB0;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s;
+    font-size: 12px;
+  }
+  
+.footer .newsletter .submit:hover {
+    background-color: #5EAAA8;
+    border: 2px solid #5EAAA8;
+  }
+  
+  
+.footer-header {
+    display: flex;
+    align-items: center;
+  }
+  
+.footer .social-media {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-bottom: -10%;
+  }
+  
+.footer .social-media-item {
+    list-style: none;
+  }
+  
+.footer .social-media-link {
+    text-decoration: none;
+    font-size: 50px;
+    color: #D4B499;
+    transition: color 0.7s;
+  }
+  
+.footer .social-media-link:hover {
+    color: #E0C097;
+  }
+  
