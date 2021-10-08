@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* header */
 .head {
     background-image: url("/css/img/nav.jpg") ;
@@ -50,6 +51,8 @@ body {
     text-align: center;
 }
 /* header end */
+
+
 
 
 .container {

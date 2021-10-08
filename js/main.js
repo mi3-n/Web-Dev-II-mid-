@@ -7,6 +7,7 @@ var message = "Please select a size";
 // List of the amount of every product in the cart
 var itemCost = [];
 
+
 // Add to cart
 function add(n){
     // n is the rank of the T-shirt
@@ -58,10 +59,12 @@ function add(n){
     
 }
 
+
  // delete message when the select element is clicked
  function deleteE(eId) {
     document.getElementById(eId).innerHTML = ' ';
 }
+
 
 // Remove a product from the cart
 function deleItem(eId){
